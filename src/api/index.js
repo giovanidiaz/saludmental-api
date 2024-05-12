@@ -10,6 +10,6 @@ router.get('/', (req, res) => {
 });
 
 router.use('/doctors', Doctors);
-router.use('/patients', Patient);
+router.use('/patient', Patient);
 
 export default router;
