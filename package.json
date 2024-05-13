@@ -5,7 +5,7 @@
   "description": "API Para SALUD MENTAL",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon src/app.js",
+    "start": "cross-env NODE_ENV=production node src/app.js",
     "dev": "cross-env NODE_ENV=development nodemon src/app.js",
     "prod": "cross-env NODE_ENV=production node src/app.js",
     "sta": "cross-env NODE_ENV=staging node src/app.js",
